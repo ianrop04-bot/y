@@ -311,5 +311,4 @@ app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
 });
 
-// Export for Vercel
-module.exports = app;
+/
