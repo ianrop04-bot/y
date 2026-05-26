@@ -1,10 +1,11 @@
 const express = require('express');
 const ytdl = require('@distube/ytdl-core');
+const cors = require('cors')
 const path = require('path');
 const app = express();
 
-app.use(express.json());
-
+app.use(cors())
+app.use(express.json())
 // ───────────────────────────────────────
 // HTML Frontend
 // ───────────────────────────────────────
